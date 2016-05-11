@@ -13,3 +13,5 @@ selenium2 webdriver for python Tips
 
 4. 下拉选项的操作思路是 先定位到下拉菜单 在这个基础上再定位展开的选项 最后click一次.
    browser.find_element_by_id("下拉菜单").find_element_by_xpath("下拉选项").click()
+
+5. python的跨目录import 需要在被调用文件的所在目录创建一个__init__.py文件 (空文件也可以)
