@@ -356,7 +356,7 @@ downloadLogForEachPlace()
 
 ws.save('/Users/wudong/Desktop/dailyLog/iPhoneQQ浏览器_性能每日监控数据同步_主线_%s.xls' %
         datetime.datetime.now().strftime('%Y%m%d'))
-		print ("速度测试数据下载完成,Excel已保存桌面dailyLog目录!")
+print ("速度测试数据下载完成,Excel已保存桌面dailyLog目录!")
 
 # 关闭游标 关闭数据库
 cursor.close()
